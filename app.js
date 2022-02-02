@@ -1,5 +1,6 @@
 
 function updateProductNumber(product, price, simbol) {
+    // console.count('click');
     const productInput = document.getElementById(product + '-number');
     let productNumber = productInput.value;
     if (simbol == 'plus') {
@@ -61,3 +62,4 @@ document.getElementById('case-minus').addEventListener('click', function () {
      */
     updateProductNumber('case', 59, 'minus')
 });
+
